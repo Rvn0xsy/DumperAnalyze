@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Premain-Class: com.payloads.online.DumperAgent
+Agent-Class: com.payloads.online.DumperAgent
+Can-Redefine-Classes: true
