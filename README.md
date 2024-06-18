@@ -1,6 +1,7 @@
 ## DumperAnalyze
 
 > 最近审计了一套产品代码，发现使用了JavaAgent+Javassist技术在类加载后进行替换一部分被加密的方法，感觉也可以通过这个技术应用到其他地方，因此写了这个小工具，原理比较简单。
+> 相关文章：[某安全数据交换系统的漏洞挖掘](https://payloads.online/archivers/2023/09/18/acc369fd-9310-4351-889c-457b12da9c25)
 
 通过JavaAgent与Javassist技术对JVM加载的类对象进行动态插桩，可以做一些破解、加密验证的绕过等操作
 
